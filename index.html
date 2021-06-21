@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="container">
+        <nav id= "nav-bar">
+          <header> Cascading Style Sheets
+          </header>
+          
+          <ul id="list"> 
+            
+            <li class="side_bar" id="intro"> <a class="nav-link" href="#introduction">Introduction</a> </li>
+            
+          <li class="side_bar"> <a class="nav-link" href="#what_is_css"> What is CSS? </a> </li>
+            
+            <li class="side_bar"> <a class="nav-link" href="#why_use_css"> Why use CSS? </a> </li>
+            
+            <li class="side_bar"> <a class="nav-link" href="#css_syntax"> CSS Syntax </a> </li>
+            
+            <li class="side_bar"> <a class="nav-link" href="#commenting_in_css"> Commenting in CSS </a> </li>
+            
+        
+            <li class="side_bar"> <a class="nav-link" href="#design_methodology"> Design Methodology </a> </li>
+            
+            <li class="side_bar"> <a class="nav-link" href="#advantages"> Advantages </a> </li>
+            
+            <li class="side_bar"> <a class="nav-link" href="#limitations"> Limitations </a> </li>
+            
+          </ul>
+        </nav>
+        
+          
+        <main id="main-doc">
+          <section class= "main-section" id= "introduction">
+            <header> <strong> Introduction </strong> </header>
+            <article>
+              <code> h1 {color: red; font-size: 20px;} </code>
+              <p> Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. </p>
+              <p> The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.  </p>
+              <p> In addition to HTML, other markup languages support the use of CSS including; </p>
+              <ul>
+                <li> XHTML</li>
+                <li>Plain XML</li>
+                <li>SVG</li>
+                <li>XUL </li>
+              </ul>
+            </article> 
+          </section>
+          
+          <section class= "main-section" id= "what_is_css">
+            <header> <strong> What is CSS? </strong> </header>
+            <article>
+              <p> Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable. </p>
+              <p> CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout designs,variations in display for different devices and screen sizes as well as a variety of other effects. </p>
+              <p> HTML was NEVER intended to contain tags for formatting a web page!
+        
+        HTML was created to describe the content of a web page, like:
+        
+                <code> <h1>This is a heading</h1>
+        
+        <p>This is a paragraph </p>
+                </code>
+                
+        When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.
+        
+        To solve this problem, the World Wide Web Consortium (W3C) created CSS.
+        </p>
+            </article> 
+          </section>
+          
+          <section class= "main-section" id= "why_use_css">
+            <header> <strong> Why use CSS? </strong> </header>
+            <article>
+              <p> CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. </p>
+              <p> CSS helps to achieve the following but are not limited to the stated; </p>
+              <ul>
+                <li> CSS Use Can Lead To Faster Page Downloads </li>
+                <li> Use the same content with different styles for different purposes </li>
+                <li> Make maintenance easier </li>
+                <li> Multiple Device Compatibility </li>
+                
+                </ul>
+            </article> 
+          </section>
+          
+          <section class= "main-section" id= "css_syntax">
+            <header> <strong> CSS Syntax </strong> </header>
+            <article>
+              <p> CSS has a simple syntax and uses a number of English keywords to specify the names of various style properties. A style sheet consists of a list of rules. Each rule or rule-set consists of one or more selectors, and a declaration block. </p>
+              <code> p {
+          color: red;
+          text-align: center;
+        } </code>
+              <p> In the example above, 'p' is the selector, the declaration is everything within the curly braces. 'color' and 'text-align' are properties while 'red' and 'center' are values.</p>
+            </article> 
+          </section>
+          
+         
+          <section class= "main-section" id= "commenting_in_css">
+            <header> <strong> Commenting in CSS </strong> </header>
+            <article>
+              <p>A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document. CSS uses the same "block comment" syntax as the C-like languages - you start a comment with /*, and end it with */ i.e </p>
+              <code> /* body {background: green;} */ </code>
+              <p> <code> /*  this does not apply in mobile viewports  */ </code> </p>
+             
+            </article> 
+          </section>
+          
+          <section class= "main-section" id= "design_methodology">
+            <header> <strong> Design Methodology </strong> </header>
+            <article>
+              <p> A CSS methodology is a set of guidelines for writing modular, reusable and scalable code. Although CSS is an easy language to write, without an agreed-upon convention, the code gets messy almost as fast as it is written. Since each CSS declaration is defined on its own line, files get huge quickly, making them a nightmare to maintain. </p>
+              <p> These methodologies include;</p>
+              <ul>
+                <li>Object-oriented CSS (OOCSS) </li>
+                <li>Atomic CSS (ACSS) </li>
+                <li>Block Element Modifier (BEM) </li>
+                <li>Scalable and Modular Architecture for CSS (SMACSS) </li>
+              </ul>
+            </article> 
+          </section>
+          
+          <section class= "main-section" id= "advantages">
+            <header> <strong> Advantages </strong> </header>
+            <article>
+              <ul>
+                <li>Separation of content from presentation: CSS facilitates publication of content in multiple presentation formats based on nominal parameters. Nominal parameters include explicit user preferences, different web browsers, the type of device being used to view the content (a desktop computer or mobile device), the geographic and many other variables. </li>
+                <li>Site-wide consistency: When CSS is used effectively, in terms of inheritance and "cascading", a global style sheet can be used to affect and style elements site-wide. If the situation arises that the styling of the elements should be changed or adjusted, these changes can be made by editing rules in the global style sheet.  </li>
+                <li>Accessibility: Without CSS, web designers must typically lay out their pages with techniques such as HTML tables that hinder accessibility for vision-impaired users. </li>
+              </ul>
+            </article> 
+          </section>
+          
+           <section class= "main-section" id= "limitations">
+            <header> <strong> Limitations </strong> </header>
+            <article>
+              <p>CSS has the following limitations; </p>
+              <ul> 
+                <li> CSS cannot perform any logical operations like if/else or for/while or +/- </li>
+                <li> We can not read any files using CSS </li>
+                <li> It can not interact with databases </li>
+                <li> CSS can not request a web page </li>
+                  
+                </ul>
+            </article> 
+          </section>
+          
+           <section class= "main-section" id= "references">
+            <header> <strong> References </strong> </header>
+            <article>
+        <p>To find out more, click <a href="https://www.w3schools.com/css/css_intro.asp"> here</a>, <a href="https://en.wikipedia.org/wiki/CSS"> here</a> and <a href="https://www.tutorialspoint.com/css/index.htm"> here</a>  </p>
+            </article> 
+          </section>
+         
+        </main>
+        </div>
+        
+
+</body>
+</html>
